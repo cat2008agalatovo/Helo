@@ -3,11 +3,14 @@
 <head>
     <title>Amazing tours</title>
 </head>
-<frameset cols="25%,75%">
-         <frame src="menu.html">
-         <frame src="content.html">
+<frameset cols="10%,70%,15%">
+         <frame src="top.html">
+         <frameset cols="25%,75%">
+                 <frame src="menu.html">
+                 <frame src="content.html" name="big">
+         </frameset>
+         <frame src="footer.html">
 </frameset>
-
 </html>
 
          
